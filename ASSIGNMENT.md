@@ -88,7 +88,7 @@ does not compile — that is the task, not a broken setup.
 - The list must stay fast on a slow hospital network — that is the whole point
   of this page.
 
-## Task 4 — White-label launch page (~20 min)
+## Task 4 — White-label launch page (~25 min)
 
 `web/public/launch.html` (+ `launch.css`, `launch.js`) is a hand-written page —
 no React, no framework, and it must stay that way. Today it is branded for one
