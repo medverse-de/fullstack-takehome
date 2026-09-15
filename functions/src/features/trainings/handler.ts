@@ -1,6 +1,6 @@
 import type { Request, Response } from "express";
-import { requireAuth } from "../../core/auth";
-import { listTrainings } from "./service";
+import { requireAuth } from "../../core/auth.js";
+import { listTrainings } from "./service.js";
 
 export async function trainingsHandler(req: Request, res: Response) {
   try {

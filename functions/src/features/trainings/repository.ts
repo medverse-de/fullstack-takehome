@@ -1,5 +1,5 @@
 import { getFirestore } from "firebase-admin/firestore";
-import type { TrainingDoc } from "./types";
+import type { TrainingDoc } from "./types.js";
 
 const COLLECTION = "trainings";
 

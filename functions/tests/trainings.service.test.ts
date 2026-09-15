@@ -1,15 +1,15 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import type { AuthContext } from "../src/core/auth";
-import type { TrainingDoc } from "../src/features/trainings/types";
+import type { AuthContext } from "../src/core/auth.js";
+import type { TrainingDoc } from "../src/features/trainings/types.js";
 
-vi.mock("../src/features/trainings/repository", () => ({
+vi.mock("../src/features/trainings/repository.js", () => ({
   getTrainingById: vi.fn(),
   listTrainingIdsForTenant: vi.fn(),
   queryTrainings: vi.fn(),
 }));
 
-import * as repository from "../src/features/trainings/repository";
-import { listTrainings } from "../src/features/trainings/service";
+import * as repository from "../src/features/trainings/repository.js";
+import { listTrainings } from "../src/features/trainings/service.js";
 
 const HOSPITAL_A: AuthContext = { uid: "u1", tenantId: "hospital-a", role: "user" };
 

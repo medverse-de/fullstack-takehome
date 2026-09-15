@@ -1,5 +1,5 @@
-import type { AuthContext } from "../../core/auth";
-import type { TrainingSummary } from "./types";
+import type { AuthContext } from "../../core/auth.js";
+import type { TrainingSummary } from "./types.js";
 
 /**
  * Returns the trainings the caller is allowed to see.
