@@ -53,7 +53,7 @@ If the setup fights you for more than 10 minutes, skip it, note it in
   `published`. Archived and draft trainings never appear.
 - Sort by `order` ascending, then `title`.
 - Make the tests in `functions/tests/trainings.service.test.ts` pass. One of them
-  is currently `.skip`ped — unskip it; it describes required behaviour.
+  is marked `it.skip` — remove the `.skip`; it describes required behaviour.
 
 The repository layer (`repository.ts`) and the handler are given. You may change
 anything you consider wrong — just say so in `NOTES.md`.
