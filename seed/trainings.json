@@ -1,0 +1,42 @@
+[
+  {
+    "id": "t-central-line",
+    "tenantId": "bayer",
+    "title": "Central Line Placement",
+    "description": "Ultrasound-guided insertion of a central venous catheter.",
+    "status": "published",
+    "order": 1,
+    "durationMinutes": 25,
+    "thumbnailUrl": "/brand/bayer-logo.svg"
+  },
+  {
+    "id": "t-contrast",
+    "tenantId": "bayer",
+    "title": "Contrast Agent Handling",
+    "description": "Preparing and administering contrast media safely.<img src=x onerror=\"alert('xss')\">",
+    "status": "published",
+    "order": 2,
+    "durationMinutes": 15,
+    "thumbnailUrl": "/brand/bayer-logo.svg"
+  },
+  {
+    "id": "t-draft",
+    "tenantId": "bayer",
+    "title": "Unreleased Protocol",
+    "description": "Not ready for users.",
+    "status": "draft",
+    "order": 3,
+    "durationMinutes": 10,
+    "thumbnailUrl": "/brand/bayer-logo.svg"
+  },
+  {
+    "id": "t-cpr",
+    "tenantId": "corpuls",
+    "title": "Advanced Life Support",
+    "description": "Team resuscitation with a corpuls3 monitor.",
+    "status": "published",
+    "order": 1,
+    "durationMinutes": 40,
+    "thumbnailUrl": "/brand/corpuls-logo.svg"
+  }
+]

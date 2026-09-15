@@ -1,0 +1,19 @@
+{
+  "name": "Medverse Take-Home",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": { "version": "21", "installMaven": false }
+  },
+  "postCreateCommand": "npm ci --no-audit --no-fund",
+  "forwardPorts": [3000, 8080],
+  "portsAttributes": {
+    "3000": { "label": "Portal (Next.js)", "onAutoForward": "openPreview" },
+    "8080": { "label": "Firestore emulator", "onAutoForward": "silent" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint", "bradlc.vscode-tailwindcss"]
+    }
+  },
+  "hostRequirements": { "cpus": 2, "memory": "4gb" }
+}

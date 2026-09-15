@@ -1,0 +1,11 @@
+{
+  "name": "medverse-takehome",
+  "private": true,
+  "workspaces": ["functions", "web"],
+  "scripts": {
+    "dev": "npm run dev --workspace web",
+    "test": "npm run test --workspace functions",
+    "test:rules": "npm run test:rules --workspace functions",
+    "lint": "npm run lint --workspace web"
+  }
+}

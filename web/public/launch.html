@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Launch Training</title>
+  <link rel="stylesheet" href="/launch.css">
+</head>
+<body>
+  <div class="header">
+    <img src="/brand/bayer-logo.svg" class="logo">
+    <div class="header-title">Bayer Radiology Academy</div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">You are about to start</div>
+    <div class="training-name" id="trainingName"></div>
+    <div class="training-meta" id="trainingMeta"></div>
+
+    <div class="hint">
+      This training runs in a streamed session. Keep this tab open until it loads.
+    </div>
+
+    <div class="button" onclick="startTraining()">Start training</div>
+    <div class="button-secondary" onclick="history.back()">Back</div>
+  </div>
+
+  <div class="footer">© Medverse GmbH</div>
+
+  <script src="/launch.js"></script>
+</body>
+</html>

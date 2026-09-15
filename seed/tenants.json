@@ -1,0 +1,41 @@
+{
+  "bayer": {
+    "displayName": "Bayer Radiology Academy",
+    "logoUrl": "/brand/bayer-logo.svg",
+    "tokens": {
+      "--brand": "#10384f",
+      "--brand-fg": "#ffffff",
+      "--surface": "#ffffff",
+      "--text-primary": "#1a1a1a",
+      "--text-secondary": "#5f6b73",
+      "--font-family": "\"Helvetica Neue\", Arial, sans-serif",
+      "--radius": "4px"
+    }
+  },
+  "corpuls": {
+    "displayName": "corpuls Resuscitation Training",
+    "logoUrl": "/brand/corpuls-logo.svg",
+    "tokens": {
+      "--brand": "#c8102e",
+      "--brand-fg": "#ffffff",
+      "--surface": "#ffffff",
+      "--text-primary": "#141414",
+      "--text-secondary": "#6b6b6b",
+      "--font-family": "Inter, system-ui, sans-serif",
+      "--radius": "12px"
+    }
+  },
+  "demo": {
+    "displayName": "Medverse Demo Clinic",
+    "logoUrl": "/brand/medverse-logo.svg",
+    "tokens": {
+      "--brand": "#ffd400",
+      "--brand-fg": "#1a1a1a",
+      "--surface": "#ffffff",
+      "--text-primary": "#1a1a1a",
+      "--text-secondary": "#6b6b6b",
+      "--font-family": "Inter, system-ui, sans-serif",
+      "--radius": "2px"
+    }
+  }
+}

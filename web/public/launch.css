@@ -1,0 +1,63 @@
+/* Design tokens. Today: one tenant. */
+:root {
+  --brand: #10384f;
+  --brand-fg: #ffffff;
+  --surface: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #8a8a8a;
+  --font-family: "Helvetica Neue", Arial, sans-serif;
+  --radius: 4px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  color: var(--text-primary);
+  background: #f4f6f8;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 32px;
+  background: #10384f;
+  color: #ffffff;
+}
+
+.logo { height: 28px; }
+
+.header-title { font-size: 18px; font-weight: 600; }
+
+.panel {
+  width: 640px;
+  margin: 48px auto;
+  padding: 32px;
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.panel-title { font-size: 13px; color: #8a8a8a; text-transform: uppercase; }
+.training-name { font-size: 26px; font-weight: 700; margin: 4px 0 8px; }
+.training-meta { color: #8a8a8a; font-size: 14px; }
+.hint { margin: 24px 0; font-size: 14px; color: #8a8a8a; }
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #10384f;
+  color: #ffffff;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button-secondary {
+  display: inline-block;
+  padding: 12px 24px;
+  color: #8a8a8a;
+  cursor: pointer;
+}
+
+.footer { text-align: center; color: #8a8a8a; font-size: 12px; padding: 32px; }

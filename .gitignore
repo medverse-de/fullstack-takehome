@@ -1,0 +1,7 @@
+node_modules
+.next
+lib
+*.log
+.env
+firestore-debug.log
+firebase-debug.log
